@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SPReactiveSwift_Example' do
+  pod 'SPReactiveSwift', :path => '../'
+
+  target 'SPReactiveSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
