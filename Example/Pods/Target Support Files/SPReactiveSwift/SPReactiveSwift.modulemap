@@ -1,0 +1,6 @@
+framework module SPReactiveSwift {
+  umbrella header "SPReactiveSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

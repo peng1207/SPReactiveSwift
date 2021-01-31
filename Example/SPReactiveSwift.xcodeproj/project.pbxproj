@@ -32,7 +32,7 @@
 		247639CA9AF08EA99786FBF6 /* Pods-SPReactiveSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPReactiveSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-SPReactiveSwift_Tests/Pods-SPReactiveSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A261824796C06F4FCE3B774 /* Pods-SPReactiveSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPReactiveSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-SPReactiveSwift_Example/Pods-SPReactiveSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4B737E9F4FC62B206F8E01E0 /* Pods-SPReactiveSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPReactiveSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-SPReactiveSwift_Example/Pods-SPReactiveSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4C14F97F98BEEBDC8001FE40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C14F97F98BEEBDC8001FE40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SPReactiveSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPReactiveSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* SPReactiveSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPReactiveSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		CA1B109EAC45156D360749CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CA1B109EAC45156D360749CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DFEC3C13D3F89E310327B910 /* Pods-SPReactiveSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPReactiveSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SPReactiveSwift_Tests/Pods-SPReactiveSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E20BF698CECE781BDFE9C73A /* Pods_SPReactiveSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPReactiveSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E23118161C4DF98D4C106EAA /* SPReactiveSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SPReactiveSwift.podspec; path = ../SPReactiveSwift.podspec; sourceTree = "<group>"; };
+		E23118161C4DF98D4C106EAA /* SPReactiveSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPReactiveSwift.podspec; path = ../SPReactiveSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				DFEC3C13D3F89E310327B910 /* Pods-SPReactiveSwift_Tests.debug.xcconfig */,
 				247639CA9AF08EA99786FBF6 /* Pods-SPReactiveSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

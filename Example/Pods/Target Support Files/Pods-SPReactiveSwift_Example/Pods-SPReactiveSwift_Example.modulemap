@@ -1,0 +1,6 @@
+framework module Pods_SPReactiveSwift_Example {
+  umbrella header "Pods-SPReactiveSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

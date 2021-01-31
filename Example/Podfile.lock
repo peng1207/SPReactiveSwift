@@ -1,0 +1,16 @@
+PODS:
+  - SPReactiveSwift (0.1.0)
+
+DEPENDENCIES:
+  - SPReactiveSwift (from `../`)
+
+EXTERNAL SOURCES:
+  SPReactiveSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPReactiveSwift: e98d7f02a747c196ce431e6a8361b9b021ce5b1e
+
+PODFILE CHECKSUM: 0fffff5a726353de31ec8371145da00c35a4ec17
+
+COCOAPODS: 1.8.0
