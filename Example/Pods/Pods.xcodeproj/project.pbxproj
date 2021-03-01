@@ -54,19 +54,19 @@
 
 /* Begin PBXFileReference section */
 		0E30864A90DA431EAE5B419D13D88C56 /* SPReactiveSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPReactiveSwift-Info.plist"; sourceTree = "<group>"; };
-		1142220209092D0E47EA16518788B4B9 /* Pods_SPReactiveSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPReactiveSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1142220209092D0E47EA16518788B4B9 /* Pods_SPReactiveSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPReactiveSwift_Example.framework; path = "Pods-SPReactiveSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F6E9B070CE5EE09D433211FA1A7587 /* SPTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPTarget.swift; sourceTree = "<group>"; };
 		1A6D6FE4CA277A799F18466C83524C55 /* SPDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPDisposable.swift; sourceTree = "<group>"; };
 		1D0EF3878524AA10E7A22EC93CCAAAB2 /* SPAnyReactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnyReactive.swift; path = SPReactiveSwift/Classes/Reactive/SPAnyReactive.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34B4ADA3160A3071ACAE2DA72A6369BF /* SPNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPNotification.swift; sourceTree = "<group>"; };
-		391390FAC2ACA72281756632D25835EE /* Pods_SPReactiveSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPReactiveSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391390FAC2ACA72281756632D25835EE /* Pods_SPReactiveSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPReactiveSwift_Tests.framework; path = "Pods-SPReactiveSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3961A7C0C00C0B72FA11FC51F1449122 /* Pods-SPReactiveSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPReactiveSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		3B94C2E6D5F98EEB70D1F3777C14AC10 /* Pods-SPReactiveSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPReactiveSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		3FB45AB9A081F1402D6AEABEB474DBBF /* Pods-SPReactiveSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPReactiveSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		450BB64CCA5FCED89DBFFC16BA1EF0D7 /* SPGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPGestureRecognizer.swift; sourceTree = "<group>"; };
 		45EBC1DFDB0E161609BCC72F7ACCD07D /* SPObserveValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPObserveValues.swift; path = SPReactiveSwift/Classes/Reactive/SPObserveValues.swift; sourceTree = "<group>"; };
-		4A47FA4E95B2D4DBF13BCE62B01A89F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4A47FA4E95B2D4DBF13BCE62B01A89F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4E5316A727A6E59F9946955CB905178D /* Pods-SPReactiveSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPReactiveSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		52032375E4C6BCE2CFA598A7CB469581 /* SPReactiveSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPReactiveSwift-umbrella.h"; sourceTree = "<group>"; };
 		52A4C87EEA10FC44B03B454D66E1CD8D /* SPSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSubscription.swift; sourceTree = "<group>"; };
@@ -77,9 +77,9 @@
 		8F1C4A80786777CC0093E7E4FCBFBD1D /* SPObserve.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPObserve.swift; path = SPReactiveSwift/Classes/Reactive/SPObserve.swift; sourceTree = "<group>"; };
 		93788D081E74E906C49429DEABBC9203 /* SPKVO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPKVO.swift; sourceTree = "<group>"; };
 		938E06AE49071E6402B2B287AFF6A84E /* SPReactiveSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPReactiveSwift.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A18F07C6A67308878A1F88DFC41BD6CA /* SPReactiveSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SPReactiveSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6492B42353FA8DC70A66C8B7C90A270 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18F07C6A67308878A1F88DFC41BD6CA /* SPReactiveSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SPReactiveSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6492B42353FA8DC70A66C8B7C90A270 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AB1D7DC0AE81D5423A06398A3DE574F2 /* SPControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPControl.swift; sourceTree = "<group>"; };
 		AD4464879037735B8B546152125FCA9D /* SPDisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDisposeBase.swift; path = SPReactiveSwift/Classes/Reactive/SPDisposeBase.swift; sourceTree = "<group>"; };
 		AD60544C2DA76A27A113F353F08D1613 /* Pods-SPReactiveSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPReactiveSwift_Example.modulemap"; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		DBE1EC259EDDB2E08602649A918A4C88 /* SPMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPMap.swift; path = SPReactiveSwift/Classes/Reactive/SPMap.swift; sourceTree = "<group>"; };
 		DCCFD5E07E60C43C5325B2B25F555C95 /* SPSubscribe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSubscribe.swift; path = SPReactiveSwift/Classes/Reactive/SPSubscribe.swift; sourceTree = "<group>"; };
 		DF40E969ABAE6D992BD6CA4AE7AAE4E2 /* SPReactiveSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPReactiveSwift-prefix.pch"; sourceTree = "<group>"; };
-		E05667D6DDE2607E3F2DC961813240A7 /* SPReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05667D6DDE2607E3F2DC961813240A7 /* SPReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPReactiveSwift.framework; path = SPReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F4D517A29E4EEEE728F5B54CDDED21 /* SPDispose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDispose.swift; path = SPReactiveSwift/Classes/Reactive/SPDispose.swift; sourceTree = "<group>"; };
 		EFED5A515A1AA61201F507A1F5A2F52B /* SPSignal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSignal.swift; path = SPReactiveSwift/Classes/Reactive/SPSignal.swift; sourceTree = "<group>"; };
 		F1625C4CF72F86506C855A84ED0A6089 /* SPReactiveSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPReactiveSwift-dummy.m"; sourceTree = "<group>"; };
@@ -670,7 +670,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

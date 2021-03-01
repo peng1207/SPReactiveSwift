@@ -47,13 +47,23 @@ class ViewController: UIViewController {
         SPAnyReactive<String?>(reactivable: self.$name).subscribe { (str) in
             
         }.dispose(by: disposeBase)
-    
+        SPObserveValues.TwoValues(r1: self.$name,r2: self.$name).subscribe { (v1,v2) in
+            print("\(v1) ----\(v2)")
+        }.dispose(by: disposeBase)
+        SPObserveValues.TwoValues(r1: self.$name,r2: self.$name).map { (v1,v2) -> String in
+            return "new value \(v1) \(v2)"
+        }.subscribe { (str) in
+            print("\(str)")
+        }.dispose(by: disposeBase)
+        self.view.sp.tap().subscribe { (tap ) in
+            self.name = "22222"
+            self.textField.text = "textField text"
+        }.dispose(by: disposeBase)
         // Do any additional setup after loading the view, typically from a nib.
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        self.name = "22222"
-        textField.text = "textField text"
+        
     }
     
     override func didReceiveMemoryWarning() {

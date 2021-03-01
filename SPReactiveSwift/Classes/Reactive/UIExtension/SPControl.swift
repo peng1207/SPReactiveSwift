@@ -28,6 +28,7 @@ public struct SPControl<Control> : SPReactivable where Control : UIControl{
             self.subscribe = subscribe
             self.control = control
             self.event = event
+            addObserve()
         }
         private func addObserve(){
             self.control.addTarget(self, action: #selector(eventAction), for: event)

@@ -30,6 +30,7 @@ public struct SPGestureRecognizer<GestureRecognizer> : SPReactivable where Gestu
         init(subscribe : S,gestureRecognizer : GestureRecognizer) {
             self.subscribe = subscribe
             self.gestureRecognizer = gestureRecognizer
+            addObserve()
         }
         private func addObserve(){
             gestureRecognizer.addTarget(self, action: #selector(gestureEvent))
