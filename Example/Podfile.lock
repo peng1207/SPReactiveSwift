@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SPReactiveSwift: e98d7f02a747c196ce431e6a8361b9b021ce5b1e
+  SPReactiveSwift: 4dd60c7bcfab1cc01137556029ddeb06eee53d11
 
 PODFILE CHECKSUM: 0fffff5a726353de31ec8371145da00c35a4ec17
 

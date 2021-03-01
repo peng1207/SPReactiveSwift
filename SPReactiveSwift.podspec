@@ -24,13 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/peng1207/SPReactiveSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '825844231@qq.com' => '825844231@qq.com' }
+  s.author           = { '鹏少' => '825844231@qq.com' }
   s.source           = { :git => 'https://github.com/peng1207/SPReactiveSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SPReactiveSwift/Classes/**/*'
+  s.source_files = 'SPReactiveSwift/Classes/Reactive/**/*'
   
   # s.resource_bundles = {
   #   'SPReactiveSwift' => ['SPReactiveSwift/Assets/*.png']

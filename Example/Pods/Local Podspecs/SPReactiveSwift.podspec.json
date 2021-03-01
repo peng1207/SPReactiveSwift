@@ -3,20 +3,20 @@
   "version": "0.1.0",
   "summary": "A short description of SPReactiveSwift.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/825844231@qq.com/SPReactiveSwift",
+  "homepage": "https://github.com/peng1207/SPReactiveSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "825844231@qq.com": "825844231@qq.com"
+    "鹏少": "825844231@qq.com"
   },
   "source": {
-    "git": "https://github.com/825844231@qq.com/SPReactiveSwift.git",
+    "git": "https://github.com/peng1207/SPReactiveSwift.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "SPReactiveSwift/Classes/**/*"
+  "source_files": "SPReactiveSwift/Classes/Reactive/**/*"
 }

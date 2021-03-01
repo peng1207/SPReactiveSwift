@@ -1,5 +1,5 @@
 import XCTest
-import SPReactiveSwift
+
 
 class Tests: XCTestCase {
     

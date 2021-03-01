@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08BCE61993CB7F592C40C600C80454F6 /* SPGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450BB64CCA5FCED89DBFFC16BA1EF0D7 /* SPGestureRecognizer.swift */; };
+		0B8D9A577F7BA555F75BD9D1D1385DEE /* SPReactiveSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1625C4CF72F86506C855A84ED0A6089 /* SPReactiveSwift-dummy.m */; };
+		0CF59350FA64395537A39FE8E69AA3D5 /* SPKVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93788D081E74E906C49429DEABBC9203 /* SPKVO.swift */; };
 		10503D183ED342EA41026BA9DEBA6A06 /* Pods-SPReactiveSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB45AB9A081F1402D6AEABEB474DBBF /* Pods-SPReactiveSwift_Example-dummy.m */; };
 		1CEDBBA773A56CF6C5CFFF990E5A6CA0 /* Pods-SPReactiveSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA3525D47F0726F3D0F411C6043B26 /* Pods-SPReactiveSwift_Tests-dummy.m */; };
+		29C429F576B4A8332B412DC79D201540 /* SPTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6E9B070CE5EE09D433211FA1A7587 /* SPTarget.swift */; };
+		373AB5BE15F971AA379BA271EC08E2A9 /* SPDispose.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F4D517A29E4EEEE728F5B54CDDED21 /* SPDispose.swift */; };
+		45C27387599D266EF620E3DC43322058 /* SPReactivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1A43907C90C628A258A29FD1A411C /* SPReactivable.swift */; };
 		4F68F8772FADEB058BA5726AD7EF3B2A /* Pods-SPReactiveSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEAA7FE0C134BA71FE5A51DE810FB32 /* Pods-SPReactiveSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA5ADC07DFC99975F95B9E194867E9BB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4ABA390E7FEF3FB2848369F5757231 /* ReplaceMe.swift */; };
+		73B0CF1AA011AFD16B3BB05F2C39C6C8 /* SPDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D6FE4CA277A799F18466C83524C55 /* SPDisposable.swift */; };
+		73F828115498020392E15282661A587C /* SPSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4C87EEA10FC44B03B454D66E1CD8D /* SPSubscription.swift */; };
+		7FBC316382C7494D9400E712E6226D51 /* SPNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B4ADA3160A3071ACAE2DA72A6369BF /* SPNotification.swift */; };
+		A02E71D68096485C16B523F4EA2F5436 /* SPSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED5A515A1AA61201F507A1F5A2F52B /* SPSignal.swift */; };
+		B0663D7D13EFEEBE3ACC4082AAF27EAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BDF28C170A847066274630162F984549 /* SPObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C4A80786777CC0093E7E4FCBFBD1D /* SPObserve.swift */; };
 		BFC9835489A74D2B6A8461BD202F36CB /* Pods-SPReactiveSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F74E2A7FA7F1F0EAB630D1DEA47653D4 /* Pods-SPReactiveSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D398A06E67C49F69FFDE4D864874C0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D456B0E08CB38020D9A9F4C05A764103 /* SPReactiveSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD78F13A5D6325A2CA065E9322A8FA62 /* SPReactiveSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD1B9CA2F9B760E3BA9D7A2FD26F80D1 /* SPReactiveSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB90BD3663590E020E493297285865F3 /* SPReactiveSwift-dummy.m */; };
+		C0373F34080B4C341A2F83816E12A225 /* SPObserveValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EBC1DFDB0E161609BCC72F7ACCD07D /* SPObserveValues.swift */; };
+		C3C9E728D4736F9CCA38EFA089BEE65F /* SPSubscribeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB047E73965B66AC88DB24D4DFD8EE86 /* SPSubscribeable.swift */; };
+		C751CF395AA1E0DEFFA44A97949D5BD0 /* SPControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1D7DC0AE81D5423A06398A3DE574F2 /* SPControl.swift */; };
+		D24696116232577B1983FD5AFDEFB744 /* SPReactiveSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52032375E4C6BCE2CFA598A7CB469581 /* SPReactiveSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEBC0AC23657129555036F94B87994D2 /* SPDisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4464879037735B8B546152125FCA9D /* SPDisposeBase.swift */; };
+		E398B06B662C635B77BC67487BD89BAA /* SPSubscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCFD5E07E60C43C5325B2B25F555C95 /* SPSubscribe.swift */; };
+		E548F202FAA628724994B2CD4B6E8B17 /* SPMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1EC259EDDB2E08602649A918A4C88 /* SPMap.swift */; };
+		E6F80F4A961001C9FC51D62FFA857A33 /* SPAnyReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0EF3878524AA10E7A22EC93CCAAAB2 /* SPAnyReactive.swift */; };
 		F029135F6661F6C33A3736660355109A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F9425F37A513F04C2FF0E4C9F03517BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,23 +53,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1142220209092D0E47EA16518788B4B9 /* Pods_SPReactiveSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPReactiveSwift_Example.framework; path = "Pods-SPReactiveSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D4ABA390E7FEF3FB2848369F5757231 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SPReactiveSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		2BE45AE9C7F81FDB2B141BBACC949C9B /* SPReactiveSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPReactiveSwift-Info.plist"; sourceTree = "<group>"; };
+		0E30864A90DA431EAE5B419D13D88C56 /* SPReactiveSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPReactiveSwift-Info.plist"; sourceTree = "<group>"; };
+		1142220209092D0E47EA16518788B4B9 /* Pods_SPReactiveSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPReactiveSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F6E9B070CE5EE09D433211FA1A7587 /* SPTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPTarget.swift; sourceTree = "<group>"; };
+		1A6D6FE4CA277A799F18466C83524C55 /* SPDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPDisposable.swift; sourceTree = "<group>"; };
+		1D0EF3878524AA10E7A22EC93CCAAAB2 /* SPAnyReactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnyReactive.swift; path = SPReactiveSwift/Classes/Reactive/SPAnyReactive.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32A477171C10421EBB23A897833D71C9 /* SPReactiveSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPReactiveSwift.xcconfig; sourceTree = "<group>"; };
-		391390FAC2ACA72281756632D25835EE /* Pods_SPReactiveSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPReactiveSwift_Tests.framework; path = "Pods-SPReactiveSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B4ADA3160A3071ACAE2DA72A6369BF /* SPNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPNotification.swift; sourceTree = "<group>"; };
+		391390FAC2ACA72281756632D25835EE /* Pods_SPReactiveSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPReactiveSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3961A7C0C00C0B72FA11FC51F1449122 /* Pods-SPReactiveSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPReactiveSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		3B94C2E6D5F98EEB70D1F3777C14AC10 /* Pods-SPReactiveSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPReactiveSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		3FB45AB9A081F1402D6AEABEB474DBBF /* Pods-SPReactiveSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPReactiveSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		450BB64CCA5FCED89DBFFC16BA1EF0D7 /* SPGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPGestureRecognizer.swift; sourceTree = "<group>"; };
+		45EBC1DFDB0E161609BCC72F7ACCD07D /* SPObserveValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPObserveValues.swift; path = SPReactiveSwift/Classes/Reactive/SPObserveValues.swift; sourceTree = "<group>"; };
+		4A47FA4E95B2D4DBF13BCE62B01A89F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E5316A727A6E59F9946955CB905178D /* Pods-SPReactiveSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPReactiveSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		634DBE0D8E7F5CDF492416DF5FC4A801 /* SPReactiveSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPReactiveSwift-prefix.pch"; sourceTree = "<group>"; };
-		6DB99BC887050705BA9AC7012D5641CC /* SPReactiveSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SPReactiveSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		52032375E4C6BCE2CFA598A7CB469581 /* SPReactiveSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPReactiveSwift-umbrella.h"; sourceTree = "<group>"; };
+		52A4C87EEA10FC44B03B454D66E1CD8D /* SPSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSubscription.swift; sourceTree = "<group>"; };
+		55F1A43907C90C628A258A29FD1A411C /* SPReactivable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPReactivable.swift; sourceTree = "<group>"; };
+		61F0DD61C2E4306AC0D8CE34ECA46192 /* SPReactiveSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPReactiveSwift.xcconfig; sourceTree = "<group>"; };
 		7672C5C49377494BE11FBEF8226709C4 /* Pods-SPReactiveSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPReactiveSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		805E7EF55EBDB17DDFF52F6CB91E90CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		865B2918B396D95782A262F5F606EED6 /* Pods-SPReactiveSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPReactiveSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB90BD3663590E020E493297285865F3 /* SPReactiveSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPReactiveSwift-dummy.m"; sourceTree = "<group>"; };
+		8F1C4A80786777CC0093E7E4FCBFBD1D /* SPObserve.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPObserve.swift; path = SPReactiveSwift/Classes/Reactive/SPObserve.swift; sourceTree = "<group>"; };
+		93788D081E74E906C49429DEABBC9203 /* SPKVO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPKVO.swift; sourceTree = "<group>"; };
+		938E06AE49071E6402B2B287AFF6A84E /* SPReactiveSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPReactiveSwift.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18F07C6A67308878A1F88DFC41BD6CA /* SPReactiveSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SPReactiveSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6492B42353FA8DC70A66C8B7C90A270 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AB1D7DC0AE81D5423A06398A3DE574F2 /* SPControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPControl.swift; sourceTree = "<group>"; };
+		AD4464879037735B8B546152125FCA9D /* SPDisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDisposeBase.swift; path = SPReactiveSwift/Classes/Reactive/SPDisposeBase.swift; sourceTree = "<group>"; };
 		AD60544C2DA76A27A113F353F08D1613 /* Pods-SPReactiveSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPReactiveSwift_Example.modulemap"; sourceTree = "<group>"; };
 		B5FA3525D47F0726F3D0F411C6043B26 /* Pods-SPReactiveSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPReactiveSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		B8388CAB4F4D88ABFCC9B5F9CBE1A438 /* Pods-SPReactiveSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPReactiveSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,22 +89,26 @@
 		C1B8A46440AC074192E60DC8379841DB /* Pods-SPReactiveSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPReactiveSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C2BA72A4CB3E52B310C0642E19A85624 /* Pods-SPReactiveSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPReactiveSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C532649753E4AE868763BF3A532A0C3A /* Pods-SPReactiveSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPReactiveSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB047E73965B66AC88DB24D4DFD8EE86 /* SPSubscribeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSubscribeable.swift; sourceTree = "<group>"; };
 		D6E3C5FC3C54D19CFD9620D1773CC2B4 /* Pods-SPReactiveSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPReactiveSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		DD78F13A5D6325A2CA065E9322A8FA62 /* SPReactiveSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPReactiveSwift-umbrella.h"; sourceTree = "<group>"; };
-		E05667D6DDE2607E3F2DC961813240A7 /* SPReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPReactiveSwift.framework; path = SPReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5CCD2E88CD605709198232A9A119CEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F6657AFBF0A0D2FB0C40B5EF24DC9D81 /* SPReactiveSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPReactiveSwift.modulemap; sourceTree = "<group>"; };
+		DBE1EC259EDDB2E08602649A918A4C88 /* SPMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPMap.swift; path = SPReactiveSwift/Classes/Reactive/SPMap.swift; sourceTree = "<group>"; };
+		DCCFD5E07E60C43C5325B2B25F555C95 /* SPSubscribe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSubscribe.swift; path = SPReactiveSwift/Classes/Reactive/SPSubscribe.swift; sourceTree = "<group>"; };
+		DF40E969ABAE6D992BD6CA4AE7AAE4E2 /* SPReactiveSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPReactiveSwift-prefix.pch"; sourceTree = "<group>"; };
+		E05667D6DDE2607E3F2DC961813240A7 /* SPReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F4D517A29E4EEEE728F5B54CDDED21 /* SPDispose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDispose.swift; path = SPReactiveSwift/Classes/Reactive/SPDispose.swift; sourceTree = "<group>"; };
+		EFED5A515A1AA61201F507A1F5A2F52B /* SPSignal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSignal.swift; path = SPReactiveSwift/Classes/Reactive/SPSignal.swift; sourceTree = "<group>"; };
+		F1625C4CF72F86506C855A84ED0A6089 /* SPReactiveSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPReactiveSwift-dummy.m"; sourceTree = "<group>"; };
 		F74E2A7FA7F1F0EAB630D1DEA47653D4 /* Pods-SPReactiveSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPReactiveSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F8E8CB5A636ABC9C8AB8451A42D175D2 /* Pods-SPReactiveSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPReactiveSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FCEAA7FE0C134BA71FE5A51DE810FB32 /* Pods-SPReactiveSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPReactiveSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9F4BE028C5BEA35A5F3EB724ED1C50D4 /* Frameworks */ = {
+		05358E5060943349449B60945AFCAAA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D398A06E67C49F69FFDE4D864874C0A4 /* Foundation.framework in Frameworks */,
+				B0663D7D13EFEEBE3ACC4082AAF27EAB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,14 +131,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1624150182DC48E9D0C924A3EEB6F663 /* Pod */ = {
+		06CC54B52C37E7B2FD0DFA8DE6BB6320 /* SPReactiveSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E5CCD2E88CD605709198232A9A119CEC /* LICENSE */,
-				805E7EF55EBDB17DDFF52F6CB91E90CD /* README.md */,
-				6DB99BC887050705BA9AC7012D5641CC /* SPReactiveSwift.podspec */,
+				1D0EF3878524AA10E7A22EC93CCAAAB2 /* SPAnyReactive.swift */,
+				E0F4D517A29E4EEEE728F5B54CDDED21 /* SPDispose.swift */,
+				AD4464879037735B8B546152125FCA9D /* SPDisposeBase.swift */,
+				DBE1EC259EDDB2E08602649A918A4C88 /* SPMap.swift */,
+				8F1C4A80786777CC0093E7E4FCBFBD1D /* SPObserve.swift */,
+				45EBC1DFDB0E161609BCC72F7ACCD07D /* SPObserveValues.swift */,
+				EFED5A515A1AA61201F507A1F5A2F52B /* SPSignal.swift */,
+				DCCFD5E07E60C43C5325B2B25F555C95 /* SPSubscribe.swift */,
+				52B3BD867D16881507053A71A1A0080A /* Pod */,
+				AD4B8DE35A38F84DF29E58DBA150B61B /* Protocol */,
+				5F5986109BEF1F96B4AF13B7B3982CBE /* Support Files */,
+				0DFEFF53CD9EFC2B14F5D5090BEC136C /* UIExtension */,
+			);
+			name = SPReactiveSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0DFEFF53CD9EFC2B14F5D5090BEC136C /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D7DC0AE81D5423A06398A3DE574F2 /* SPControl.swift */,
+				450BB64CCA5FCED89DBFFC16BA1EF0D7 /* SPGestureRecognizer.swift */,
+				93788D081E74E906C49429DEABBC9203 /* SPKVO.swift */,
+				34B4ADA3160A3071ACAE2DA72A6369BF /* SPNotification.swift */,
+				11F6E9B070CE5EE09D433211FA1A7587 /* SPTarget.swift */,
+			);
+			name = UIExtension;
+			path = SPReactiveSwift/Classes/Reactive/UIExtension;
+			sourceTree = "<group>";
+		};
+		52B3BD867D16881507053A71A1A0080A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A6492B42353FA8DC70A66C8B7C90A270 /* LICENSE */,
+				4A47FA4E95B2D4DBF13BCE62B01A89F0 /* README.md */,
+				A18F07C6A67308878A1F88DFC41BD6CA /* SPReactiveSwift.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		5F5986109BEF1F96B4AF13B7B3982CBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				938E06AE49071E6402B2B287AFF6A84E /* SPReactiveSwift.modulemap */,
+				61F0DD61C2E4306AC0D8CE34ECA46192 /* SPReactiveSwift.xcconfig */,
+				F1625C4CF72F86506C855A84ED0A6089 /* SPReactiveSwift-dummy.m */,
+				0E30864A90DA431EAE5B419D13D88C56 /* SPReactiveSwift-Info.plist */,
+				DF40E969ABAE6D992BD6CA4AE7AAE4E2 /* SPReactiveSwift-prefix.pch */,
+				52032375E4C6BCE2CFA598A7CB469581 /* SPReactiveSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SPReactiveSwift";
 			sourceTree = "<group>";
 		};
 		6AE7E708C9BE47857FF3AD7F2FFDD2DA /* Pods-SPReactiveSwift_Tests */ = {
@@ -135,15 +214,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6FE8A064F63378CCA439E13846CFA924 /* SPReactiveSwift */ = {
+		725DAEC5DFF05112F7D078B35663FA5A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1D4ABA390E7FEF3FB2848369F5757231 /* ReplaceMe.swift */,
-				1624150182DC48E9D0C924A3EEB6F663 /* Pod */,
-				F054774F8D56467C0AAE624286871BA1 /* Support Files */,
+				06CC54B52C37E7B2FD0DFA8DE6BB6320 /* SPReactiveSwift */,
 			);
-			name = SPReactiveSwift;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8C7D31250ED3D41FBFC8244656BF7119 /* Targets Support Files */ = {
@@ -153,6 +229,18 @@
 				6AE7E708C9BE47857FF3AD7F2FFDD2DA /* Pods-SPReactiveSwift_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD4B8DE35A38F84DF29E58DBA150B61B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D6FE4CA277A799F18466C83524C55 /* SPDisposable.swift */,
+				55F1A43907C90C628A258A29FD1A411C /* SPReactivable.swift */,
+				CB047E73965B66AC88DB24D4DFD8EE86 /* SPSubscribeable.swift */,
+				52A4C87EEA10FC44B03B454D66E1CD8D /* SPSubscription.swift */,
+			);
+			name = Protocol;
+			path = SPReactiveSwift/Classes/Reactive/Protocol;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -167,7 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FA99CC33A9346135AE842575D95CBF87 /* Development Pods */,
+				725DAEC5DFF05112F7D078B35663FA5A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6C714A3250FC79C9B1B3200FB3D860BC /* Products */,
 				8C7D31250ED3D41FBFC8244656BF7119 /* Targets Support Files */,
@@ -180,28 +268,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F054774F8D56467C0AAE624286871BA1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F6657AFBF0A0D2FB0C40B5EF24DC9D81 /* SPReactiveSwift.modulemap */,
-				32A477171C10421EBB23A897833D71C9 /* SPReactiveSwift.xcconfig */,
-				AB90BD3663590E020E493297285865F3 /* SPReactiveSwift-dummy.m */,
-				2BE45AE9C7F81FDB2B141BBACC949C9B /* SPReactiveSwift-Info.plist */,
-				634DBE0D8E7F5CDF492416DF5FC4A801 /* SPReactiveSwift-prefix.pch */,
-				DD78F13A5D6325A2CA065E9322A8FA62 /* SPReactiveSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SPReactiveSwift";
-			sourceTree = "<group>";
-		};
-		FA99CC33A9346135AE842575D95CBF87 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6FE8A064F63378CCA439E13846CFA924 /* SPReactiveSwift */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		FD61DA9FD4B5D0A034690F75E594A3DD /* Pods-SPReactiveSwift_Example */ = {
@@ -224,19 +290,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		07001DB1D8E11E8513C0234636A49D1E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D456B0E08CB38020D9A9F4C05A764103 /* SPReactiveSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		33CE55670DE62D209D0352ACF08E3011 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BFC9835489A74D2B6A8461BD202F36CB /* Pods-SPReactiveSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C1E3887D49CE3BCD76596844B67378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24696116232577B1983FD5AFDEFB744 /* SPReactiveSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +357,12 @@
 		};
 		9A117DA467F90D8317DD4B98C4E98CD2 /* SPReactiveSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0678C302070AE0D1D52106D4DDAF7BC4 /* Build configuration list for PBXNativeTarget "SPReactiveSwift" */;
+			buildConfigurationList = 57CE02BFBAC28A895D66207B5B08AF26 /* Build configuration list for PBXNativeTarget "SPReactiveSwift" */;
 			buildPhases = (
-				07001DB1D8E11E8513C0234636A49D1E /* Headers */,
-				17BF611C6C55A9CFE1E3B4627D45E6E1 /* Sources */,
-				9F4BE028C5BEA35A5F3EB724ED1C50D4 /* Frameworks */,
-				B705586A664111C6AF29008CF189C3DF /* Resources */,
+				75C1E3887D49CE3BCD76596844B67378 /* Headers */,
+				C16FD05C4C52D1B4BAAE97F7922AB709 /* Sources */,
+				05358E5060943349449B60945AFCAAA9 /* Frameworks */,
+				C40F84FB902B8E127828C1A4DAE0C1B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +409,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B705586A664111C6AF29008CF189C3DF /* Resources */ = {
+		C40F84FB902B8E127828C1A4DAE0C1B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,20 +426,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17BF611C6C55A9CFE1E3B4627D45E6E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA5ADC07DFC99975F95B9E194867E9BB /* ReplaceMe.swift in Sources */,
-				DD1B9CA2F9B760E3BA9D7A2FD26F80D1 /* SPReactiveSwift-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A0B0FB47FB125AB7DD2D058359B64A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1CEDBBA773A56CF6C5CFFF990E5A6CA0 /* Pods-SPReactiveSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16FD05C4C52D1B4BAAE97F7922AB709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F80F4A961001C9FC51D62FFA857A33 /* SPAnyReactive.swift in Sources */,
+				C751CF395AA1E0DEFFA44A97949D5BD0 /* SPControl.swift in Sources */,
+				73B0CF1AA011AFD16B3BB05F2C39C6C8 /* SPDisposable.swift in Sources */,
+				373AB5BE15F971AA379BA271EC08E2A9 /* SPDispose.swift in Sources */,
+				DEBC0AC23657129555036F94B87994D2 /* SPDisposeBase.swift in Sources */,
+				08BCE61993CB7F592C40C600C80454F6 /* SPGestureRecognizer.swift in Sources */,
+				0CF59350FA64395537A39FE8E69AA3D5 /* SPKVO.swift in Sources */,
+				E548F202FAA628724994B2CD4B6E8B17 /* SPMap.swift in Sources */,
+				7FBC316382C7494D9400E712E6226D51 /* SPNotification.swift in Sources */,
+				BDF28C170A847066274630162F984549 /* SPObserve.swift in Sources */,
+				C0373F34080B4C341A2F83816E12A225 /* SPObserveValues.swift in Sources */,
+				45C27387599D266EF620E3DC43322058 /* SPReactivable.swift in Sources */,
+				0B8D9A577F7BA555F75BD9D1D1385DEE /* SPReactiveSwift-dummy.m in Sources */,
+				A02E71D68096485C16B523F4EA2F5436 /* SPSignal.swift in Sources */,
+				E398B06B662C635B77BC67487BD89BAA /* SPSubscribe.swift in Sources */,
+				C3C9E728D4736F9CCA38EFA089BEE65F /* SPSubscribeable.swift in Sources */,
+				73F828115498020392E15282661A587C /* SPSubscription.swift in Sources */,
+				29C429F576B4A8332B412DC79D201540 /* SPTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +485,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20D7BC14557C3202BC35E0D0666C83FD /* Release */ = {
+		2B8421E4554E40819301E40C394277B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32A477171C10421EBB23A897833D71C9 /* SPReactiveSwift.xcconfig */;
+			baseConfigurationReference = 61F0DD61C2E4306AC0D8CE34ECA46192 /* SPReactiveSwift.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -419,7 +502,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SPReactiveSwift/SPReactiveSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SPReactiveSwift/SPReactiveSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SPReactiveSwift/SPReactiveSwift.modulemap";
 				PRODUCT_MODULE_NAME = SPReactiveSwift;
@@ -429,11 +512,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		6DF0AAE59EA3DF8D4663FCA77D155D42 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -502,6 +584,39 @@
 			};
 			name = Release;
 		};
+		8E1EF141E584F77952280BAEED749ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F0DD61C2E4306AC0D8CE34ECA46192 /* SPReactiveSwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPReactiveSwift/SPReactiveSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPReactiveSwift/SPReactiveSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPReactiveSwift/SPReactiveSwift.modulemap";
+				PRODUCT_MODULE_NAME = SPReactiveSwift;
+				PRODUCT_NAME = SPReactiveSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -555,8 +670,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -660,37 +774,6 @@
 			};
 			name = Release;
 		};
-		E9A9CCFA8358F8B7B536840A35F015C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32A477171C10421EBB23A897833D71C9 /* SPReactiveSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SPReactiveSwift/SPReactiveSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SPReactiveSwift/SPReactiveSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SPReactiveSwift/SPReactiveSwift.modulemap";
-				PRODUCT_MODULE_NAME = SPReactiveSwift;
-				PRODUCT_NAME = SPReactiveSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EBD5FCBE0158D45A3C281761C9C7E89B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8388CAB4F4D88ABFCC9B5F9CBE1A438 /* Pods-SPReactiveSwift_Tests.debug.xcconfig */;
@@ -727,15 +810,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0678C302070AE0D1D52106D4DDAF7BC4 /* Build configuration list for PBXNativeTarget "SPReactiveSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9A9CCFA8358F8B7B536840A35F015C9 /* Debug */,
-				20D7BC14557C3202BC35E0D0666C83FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		481544D7A988586F14E0C173E3AAE207 /* Build configuration list for PBXNativeTarget "Pods-SPReactiveSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -750,6 +824,15 @@
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CE02BFBAC28A895D66207B5B08AF26 /* Build configuration list for PBXNativeTarget "SPReactiveSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8421E4554E40819301E40C394277B7 /* Debug */,
+				8E1EF141E584F77952280BAEED749ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
